@@ -46,7 +46,20 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Code\MessageCollections.cs" />
     <Compile Include="Code\PageManger.cs" />
+    <Compile Include="Gui\GuiCategories\AddCategoryForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Gui\GuiCategories\AddCategoryForm.Designer.cs">
+      <DependentUpon>AddCategoryForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Gui\GuiCategories\CategoryUserControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Gui\GuiCategories\CategoryUserControl.Designer.cs">
+      <DependentUpon>CategoryUserControl.cs</DependentUpon>
+    </Compile>
     <Compile Include="Gui\GuiHome\HomeUserControl.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -61,6 +74,12 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Gui\GuiCategories\AddCategoryForm.resx">
+      <DependentUpon>AddCategoryForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Gui\GuiCategories\CategoryUserControl.resx">
+      <DependentUpon>CategoryUserControl.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Gui\GuiHome\HomeUserControl.resx">
       <DependentUpon>HomeUserControl.cs</DependentUpon>
     </EmbeddedResource>

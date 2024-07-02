@@ -29,7 +29,6 @@
         private void InitializeComponent()
         {
             this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
-            this.panelcontainer = new System.Windows.Forms.Panel();
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
@@ -41,6 +40,7 @@
             this.button9 = new System.Windows.Forms.Button();
             this.button10 = new System.Windows.Forms.Button();
             this.button11 = new System.Windows.Forms.Button();
+            this.panelcontainer = new System.Windows.Forms.Panel();
             this.flowLayoutPanel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -64,16 +64,6 @@
             this.flowLayoutPanel1.Size = new System.Drawing.Size(1298, 70);
             this.flowLayoutPanel1.TabIndex = 0;
             // 
-            // panelcontainer
-            // 
-            this.panelcontainer.BackColor = System.Drawing.Color.White;
-            this.panelcontainer.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panelcontainer.Location = new System.Drawing.Point(0, 0);
-            this.panelcontainer.Margin = new System.Windows.Forms.Padding(10);
-            this.panelcontainer.Name = "panelcontainer";
-            this.panelcontainer.Size = new System.Drawing.Size(1298, 594);
-            this.panelcontainer.TabIndex = 1;
-            // 
             // button1
             // 
             this.button1.Font = new System.Drawing.Font("Calibri", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -94,7 +84,7 @@
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(126, 54);
             this.button2.TabIndex = 1;
-            this.button2.Text = "Home";
+            this.button2.Text = "Category";
             this.button2.UseVisualStyleBackColor = true;
             // 
             // button3
@@ -192,6 +182,16 @@
             this.button11.TabIndex = 10;
             this.button11.Text = "Home";
             this.button11.UseVisualStyleBackColor = true;
+            // 
+            // panelcontainer
+            // 
+            this.panelcontainer.BackColor = System.Drawing.Color.White;
+            this.panelcontainer.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panelcontainer.Location = new System.Drawing.Point(0, 0);
+            this.panelcontainer.Margin = new System.Windows.Forms.Padding(10);
+            this.panelcontainer.Name = "panelcontainer";
+            this.panelcontainer.Size = new System.Drawing.Size(1298, 594);
+            this.panelcontainer.TabIndex = 1;
             // 
             // Main
             // 

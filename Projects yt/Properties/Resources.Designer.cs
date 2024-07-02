@@ -61,6 +61,24 @@ namespace Projects_yt.Properties {
         }
         
         /// <summary>
+        ///   Recherche une chaîne localisée semblable à No Data.
+        /// </summary>
+        internal static string EmptyMessageCaption {
+            get {
+                return ResourceManager.GetString("EmptyMessageCaption", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Recherche une chaîne localisée semblable à The data display grid is empty This action cannont be performed.
+        /// </summary>
+        internal static string EmptyMessageText {
+            get {
+                return ResourceManager.GetString("EmptyMessageText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Recherche une ressource localisée de type System.Drawing.Bitmap.
         /// </summary>
         internal static System.Drawing.Bitmap icons8_home_64 {
